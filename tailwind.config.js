@@ -7,6 +7,10 @@ module.exports = {
         fontFamily: {
             'Monoton': ['Monoton'],
         },
+        padding: {
+            'p': ['4rem 0'],
+            're': ['3.2rem 0']
+        },
         extend: {},
     },
     plugins: [],
