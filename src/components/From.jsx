@@ -15,7 +15,10 @@ export default function From() {
             <option value={num} key={num}>{num}</option>
           ))}
         </select>
-        <input className='bg-[#ffebb3] [#5a3e2b] rounded-3xl font-bold text-3xl p-p-f' type='text' placeholder='Item...' value={description} onChange={(e)=> setDescription(e.target.value)} />
+        <input className='bg-[#ffebb3] [#5a3e2b] rounded-3xl font-bold text-3xl p-p-f' type='text' placeholder='Item...'
+          value={description} 
+          onChange={(e)=> setDescription(e.target.value)} 
+          />
         <button className='bg-[#76c7ad] [#5a3e2b] rounded-3xl font-bold text-3xl p-p-f uppercase'>Add</button>
     </form>
   );
