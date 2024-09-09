@@ -11,7 +11,7 @@ export default function App() {
     <div className='w-full h-screen grid-rows-1'>
       <Logo />
       <From />
-      <Packaging/>
+      <Packaging />
       <Stats/>
     </div>
     </>
