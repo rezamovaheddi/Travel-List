@@ -2,7 +2,7 @@ import React from 'react'
 import List from './List';
 // import '../App.css'
 
-const initialItems = [
+export const initialItems = [
   { id: 1, description: "Passports", quantity: 2, packed: true },
   { id: 2, description: "Socks", quantity: 12, packed: true },
 ];
