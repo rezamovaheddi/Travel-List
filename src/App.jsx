@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
     <div className='w-full h-screen grid-rows-1'>
-      <Logo/>
+      <Logo />
       <From/>
       <Packaging/>
       <Stats/>
