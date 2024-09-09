@@ -7,7 +7,10 @@ export default function From() {
   return (
     <form className='bg-[#e5771f] p-2 flex items-center justify-center gap-2'>
         <h3 className='mr-4 text-4xl'>What do you need for travel😍</h3>
-        <select className='bg-[#ffebb3] [#5a3e2b] rounded-3xl font-bold text-3xl p-p-f' value={quantity} onChange={(e)=> setQuantity(e.target.value)}>
+        <select className='bg-[#ffebb3] [#5a3e2b] rounded-3xl font-bold text-3xl p-p-f' 
+          value={quantity} 
+          onChange={(e)=> setQuantity(e.target.value)}
+          >
           {Array.from({length: 20}, (_,i)=> i+1).map((num)=>(
             <option value={num} key={num}>{num}</option>
           ))}
