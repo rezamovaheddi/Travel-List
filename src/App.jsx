@@ -12,7 +12,7 @@ export default function App() {
       <Logo />
       <From />
       <Packaging />
-      <Stats/>
+      <Stats />
     </div>
     </>
    
