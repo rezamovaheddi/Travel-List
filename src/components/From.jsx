@@ -13,8 +13,9 @@ export default function From() {
 
     const newItem = {description, quantity, package:false}
     console.log(newItem);
+    
     setDescription('');
-    setQuantity('')
+    setQuantity(1)
   }
   return (
     <form className='bg-[#e5771f] p-2 flex items-center justify-center gap-2' 
